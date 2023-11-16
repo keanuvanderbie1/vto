@@ -58,7 +58,7 @@ color: #00abf0;
 .home {
     height: 100vh;
     display: flex;
-    background: url('https://o.remove.bg/downloads/6a4fbef2-85df-4f79-842b-493a7cbd1cef/_b647f5e5-9c3c-4548-8453-8e51dcc56fed-removebg-preview.png') no-repeat;
+    background: url('./Logo.png') no-repeat;
     background-size: cover;
     background-position: center;
     align-items: center;
