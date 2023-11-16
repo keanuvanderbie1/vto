@@ -55,6 +55,18 @@ navbar a.active {
 
 color: #00abf0;
 }
+.home {
+    height: 100vh;
+    display: flex;
+    background: url('https://royalehosting.net/_app/immutable/assets/header-map.9a1284d0.svg') no-repeat;
+    background-size: cover;
+    background-position: center;
+    align-items: center;
+    padding: 0 10%;
+    
+
+    
+}t
 
 .home-content {
     max-width: 600px;
