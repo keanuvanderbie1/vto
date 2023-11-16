@@ -10,21 +10,41 @@
 
     <header class="header" id="home">
 
-        <a href="https://keanuvanderbie1.github.io/keanu.dev" class="logo">Keanu.</a>
-
-
+        <a href="https://keanuvanderbie1.github.io/vto" class="logo">VTO.</a>
+    
+        <div class="menu-toggle">
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+        </div>
+        
     <nav class="navbar">
-
-        <ul>
-            <li><a href="keanuvanderbie1.github.io/vto">Home</a></li>
-            <li><a href="./blog">News</a></li>
-            <li><a href="#Aanmelden">Aanmelden</a></li>
-            <li><a href="about">Over ons</a></li>
-          </ul>  
-
-        </nav>
-
-        </header>
+        <a href="#">Portofolio</a>
+        <a href="##pricing">Services</a>
+        <a href="##contact">Contact</a>
+        <a href="#login">Login</a>
+    </nav>
+    </a>
+    <script>
+        // Smooth scrolling when clicking on navigation links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+    
+                const targetId = this.getAttribute('href').substring(1);
+                const target = document.getElementById(targetId);
+    
+                if (target) {
+                    const targetPosition = target.getBoundingClientRect().top + window.scrollY;
+                    window.scrollTo({
+                        top: targetPosition - 50, // Adjust scroll position as needed
+                        behavior: 'smooth'
+                    });
+                }
+            });
+        });
+    </script>
+        </a>
 
 
     
