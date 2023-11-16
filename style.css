@@ -58,7 +58,7 @@ color: #00abf0;
 .home {
     height: 100vh;
     display: flex;
-    background: url('./Logo.png') no-repeat;
+    background: url('./3px-tile\ \(1\).png') no-repeat;
     background-size: cover;
     background-position: center;
     align-items: center;
