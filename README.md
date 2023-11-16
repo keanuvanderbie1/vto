@@ -1,2 +1,0 @@
-# vto
-Vakbond Tegen Onvoldoendes
