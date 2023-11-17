@@ -156,7 +156,8 @@ color: #00abf0;
         font-size: 56px;
         font-weight: 600;
         text-align: center;
-        padding: 0 10%
+        padding: 0 10%;
+        background: url('./45-degree-fabric--light--1920x1080.png') no-repeat;
 
     }
 
@@ -169,6 +170,8 @@ color: #00abf0;
         color: #ededed;
         background-color: transparent;
         padding: 0 10%;
+        background: url('./45-degree-fabric--light--1920x1080.png') no-repeat;
+
     }
 
 
