@@ -193,6 +193,7 @@ color: #00abf0;
         z-index: 1;
         overflow: hidden;
         transition: .5s;
+        background: url('./45-degree-fabric--light--1920x1080.png') no-repeat;
     }
     
     .btn-box2 a:hover {
