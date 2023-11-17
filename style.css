@@ -149,3 +149,25 @@ color: #00abf0;
     
     }
     
+    .aboutme h3 {
+
+        height: 50vh;
+        color: #00abf0;
+        background-color: transparent;
+        font-size: 56px;
+        font-weight: 600;
+        text-align: center;
+        padding: 0 10%
+
+    }
+
+
+    .aboutme p {
+        height: 10vh;
+        font-size: 16px;
+        font-weight: 400;
+        text-align: center;
+        color: #ededed;
+        background-color: transparent;
+        padding: 0 10%;
+    }
