@@ -155,7 +155,7 @@ color: #00abf0;
 
     }
     
-    .aboutme h3 {
+    .aboutme .h3 {
 
         color: #00abf0;
         background-color: transparent;
@@ -168,7 +168,7 @@ color: #00abf0;
     }
 
 
-    .aboutme p {
+    .aboutme .p {
         height: 20px;
         font-size: 16px;
         font-weight: 400;
