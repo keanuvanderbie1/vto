@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+Write me the css to make the iframe bigger while keeping text on top this is my code <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -51,4 +51,61 @@ color: #ededed;
     
 
 </body>
+</html>
+To make the iframe bigger while keeping the text on top, you can use CSS to adjust the size and position of the elements. Here is the modified code:
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Logged In</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        body {
+            background-color: #081b29;
+            font-weight: 600;
+            color: #ededed;
+        }
+
+        .h3 {
+            color: aqua;
+            text-align: center;
+        }
+
+        .iframe-container {
+            position: relative;
+            width: 100%;
+            padding-top: 56.25%; /* Adjust this value to change the aspect ratio, e.g., for 16:9 use 56.25% */
+            overflow: hidden;
+        }
+
+        .iframe-container iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            border: none;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="h3">
+        <h3>Welkom, kies een datum en tijd.</h3>
+    </div>
+
+    <div class="iframe-container">
+        <iframe src="https://vakbond.setmore.com" title="description"></iframe>
+    </div>
+</body>
+
 </html>
