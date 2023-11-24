@@ -7,6 +7,14 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <script>document.addEventListener("DOMContentLoaded", function () {
+        const menuToggle = document.querySelector(".menu-toggle");
+        const navbar = document.querySelector(".navbar");
+    
+        menuToggle.addEventListener("click", function () {
+            navbar.classList.toggle("active");
+        });
+    });</script>
 
     <header class="header" id="home">
 
@@ -20,9 +28,8 @@
         
     <nav class="navbar">
         <a href="#">Home</a>
-        <a href="##pricing">Over ons</a>
-        <a href="##contact">Contact</a>
-        <a href="#login">Inschrijven</a>
+        <a href="#about">Over ons</a>
+        <a href="https://forms.gle/k88RprxuTkLyNdvf7">Inschrijven</a>
     </nav>
     </a>
     <script>
